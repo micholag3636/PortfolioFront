@@ -83,11 +83,25 @@ function App() {
                         </div>
 
 
+
+                        
+                        <Nav click={() => setSideToggle(true)}/>
+                        <SideDrawer show={sideToggle} click={() => setSideToggle(false)}  />
+          
+          
+        
+          <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
+
+
                
                  
       
      
-<Nav/>
+
+
+
+
+
 <Portfolio />
 </Route>
 
@@ -103,8 +117,13 @@ function App() {
 
                
                  
-
-        <Nav />
+ 
+                        <Nav click={() => setSideToggle(true)}/>
+                        <SideDrawer show={sideToggle} click={() => setSideToggle(false)}  />
+          
+          
+        
+          <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
 
 <About />
 </Route>
@@ -125,7 +144,13 @@ function App() {
 
 
 
-        <Nav/>
+     
+                        <Nav click={() => setSideToggle(true)}/>
+                        <SideDrawer show={sideToggle} click={() => setSideToggle(false)}  />
+          
+          
+        
+          <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
 
 <Contact />
 </Route>
