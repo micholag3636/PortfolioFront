@@ -4,25 +4,46 @@ import Productscreen from "./Productscreen.js"
 
 function Portfolio() {
     return (
-        <div>
-                 
+        <div className="back">
+            
+        
+
+           
 
 <div className="title-box">
                  <h1 className="main-titles">My Projects</h1>
                  </div>
         <div className="all-services">
+        <div className="box-area">
+        <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
 
+           
+         
+
+
+            </div>
+
+       
+    
             
      
-            <Productscreen title="Cloud Hosting Service" text="Developed this for a Cloud Hosting Company using React" img="https://cdn3.f-cdn.com/files/download/138272319/Screenshot%20%28118%29.png"/>
-            <Productscreen title="Data Migration" text="We supply amazon web services for our clients" img="https://cdn.technologyadvice.com/wp-content/uploads/2017/05/Fotolia_130308566_Subscription_Monthly_M-700x408.jpg"/>
-            <Productscreen title="Infrastructure As A Service" text="We supply amazon web services for our clients" img="https://www.channelnews.com.au/wp-content/uploads/2020/06/what_is_laaS_800x420.jpg"/>
-            <Productscreen title="Cloud Security" text="We supply amazon web services for our clients" img="https://miro.medium.com/max/512/1*DQxb51_P6QQRSyTGMrxfBQ.jpeg"/>
-            <Productscreen title="VoIP Services" text="We supply amazon web services for our clients" img="https://www.wpbeginner.com/wp-content/uploads/2019/06/voipforbusiness.png"/>
-            <Productscreen title="Amazon Web Services" text="We supply amazon web services for our clients" img="https://techfest.org/2020/workshops/img/w6.jpg"/>
+            <Productscreen title="Cloud Hosting Service" text="Developed this for a cloud consulting company" img="https://cdn3.f-cdn.com/files/download/138272319/Screenshot%20%28118%29.png"/>
+            <Productscreen title="Data Migration" text="Developed this for a Ps5 concept project" img="https://cdn3.f-cdn.com/files/download/138272356/Screenshot%20%28119%29.png"/>
+            <Productscreen title="Facebook Clone" text="This Facebook Clone has signup and login capabilities " img="https://cdn2.f-cdn.com/files/download/137034054/Screenshot%20%28112%29.png"/>
+            <Productscreen title="Online Store" text="Onlinr Store developed using the MERN Stack" img="https://cdn5.f-cdn.com/files/download/138272563/Screenshot%20%28117%29.png"/>
+            <Productscreen title="Amazon Clone" text="Built using the MERN Stack, Flexbox and Redux " img="https://cdn3.f-cdn.com/files/download/138361809/Screenshot%20%28110%29%20%282%29.png"/>
 
       
         </div>
+
+      
+
+                 
 
         </div>
 
