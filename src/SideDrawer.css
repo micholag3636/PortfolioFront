@@ -1,7 +1,8 @@
 .sidedrawer{
     width: 70%;
     height: 100vh;
-    background-color: rgb(133,142,157);
+    
+    background-color: #1E242A;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,34 +33,16 @@
 
 }
 
-
-.navbutcarts{
-    background-color: #f4a261;
-    height: 40px;
-    border: none;
-    display: flex;
-    
-    flex-direction: row;
-   
-    align-items: center;
-
-    justify-content: center;
-    margin-bottom: 15px;
-    margin-right: 30px;
-    border-radius: 5px;
-    color:white;
-    cursor: pointer;
-    
- 
-
-
-
-
-
-
-}
 #homebut{
     margin-left: 20px;
+    background-color: #1E242A;
+    border: none;
+    color: white;
+}
+
+#homebut:focus{
+    border: none;
+    outline: 0px;
 }
 
 

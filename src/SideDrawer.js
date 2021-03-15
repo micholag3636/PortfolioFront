@@ -41,6 +41,26 @@ function SideDrawer({show,click}) {
 <button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">Home</h3>    </button>
 </Link>
 
+<Link to="/portfolio">
+
+
+<button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">Potfolio</h3>    </button>
+</Link>
+
+<Link to="/about">
+
+
+<button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">About</h3>    </button>
+</Link>
+
+<Link to="/contact">
+
+
+<button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">Contact</h3>    </button>
+</Link>
+
+
+
 
 
 
@@ -59,95 +79,8 @@ function SideDrawer({show,click}) {
 
 
 
-
-<span>
-
-   
-        
-    <div  id="aboutus">
-  
-         
-                    
-
-
- 
-  
-    <button className="navbutabout"><h3 className="droph3">Popular Games</h3></button>
-    <div class="dropdown-about">
-       <Link to="/overwatch"> <button className="dropdownb">Overwatch</button></Link>
-        <Link to="/apex"><button className="dropdownb">Apex</button></Link>
-    </div>
-    </div>
-
-                
-
-
-    </span>
-
-
-
-
-
-    <span>
-    <div  id="aboutus">
-
-
-
-
-
-
-
-<button className="navbutabout"><h3 className="droph3">E-SPORTS</h3></button>
-<div class="dropdown-about">
-   <Link to="/overwatchleague" ><button className="dropdownb">Overwatch League</button></Link>
- <Link to="/fortnite"><button className="dropdownb">Fortnite</button></Link>  
-
 </div>
-
 </div>
-
-
-
-
-    </span>
-
-    
-    <span>
-    <div  id="aboutus">
-
-
-
-
-
-
-
-<button className="navbutabout"><h3 className="droph3">Reviews</h3></button>
-<div class="dropdown-about">
-   <Link to="/roverwatch" ><button className="dropdownb">Overwatch</button></Link>
- <Link to="/rapex"><button className="dropdownb">Apex Legends</button></Link>  
-
-</div>
-
-</div>
-
-
-
-
-    </span>
-
-
-
-
-
-
-
-                  
-
-
-             
-               </div>
-            
-        </div>
         </div>
     )
 }
