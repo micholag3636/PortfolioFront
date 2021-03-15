@@ -41,10 +41,10 @@ function SideDrawer({show,click}) {
 <button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">Home</h3>    </button>
 </Link>
 
-<Link to="/portfolio">
+<Link to="/projects">
 
 
-<button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">Potfolio</h3>    </button>
+<button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">Projects</h3>    </button>
 </Link>
 
 <Link to="/about">

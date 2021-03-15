@@ -19,7 +19,7 @@ function Nav({click}) {
                   <div>
                       <ul>
                        <Link className="link" to="/">      <li>HOME</li>  </Link> 
-                   <Link className="link" to="/portfolio">     <li>PORTFOLIO</li>  </Link> 
+                   <Link className="link" to="/projects">     <li>PROJECTS</li>  </Link> 
                         <Link  className="link" to="/about">   <li>ABOUT</li> </Link>  
                         <Link className="link" to="/contact">       <li>CONTACT</li> </Link>  
                          

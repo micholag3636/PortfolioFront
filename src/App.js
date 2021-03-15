@@ -71,7 +71,7 @@ function App() {
 
 
 
-      <Route exact path="/portfolio">
+      <Route exact path="/projects">
 
             
    
