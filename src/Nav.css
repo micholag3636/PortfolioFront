@@ -88,3 +88,31 @@
 
 
 }
+
+
+@media (max-width: 300px){
+    
+.hamburger_menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+ 
+    list-style: none;
+    margin-right: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 120px;
+  
+
+
+
+}
+
+
+
+
+}
