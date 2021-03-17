@@ -127,3 +127,54 @@
   
 
 }
+
+
+.Service{
+
+  -webkit-animaion: scaledown .4s linear;
+  animation: scaledown .4s linear;
+  animation-fill-mode: forwards;
+  transform-origin: 50% 50%;
+}
+
+.Service:hover{
+  z-index: 100;
+  -webkit-animaion: scale 0.4s ease;
+  animation: scale 0.4s linear;
+  animation-fill-mode: forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes scaledown{
+  0%{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+  }
+  100%{
+    -webkit-transform: scale(1.0);
+    transform: scale (1.0)
+  }
+
+
+
+
+}
+
+
+@keyframes scale{
+  0%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+
+  }
+  100%{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 10px 10px 60px 10px rgba(0,0,0,0,0.3);
+  }
+
+
+
+
+}

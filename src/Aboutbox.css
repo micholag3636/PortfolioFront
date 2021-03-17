@@ -1,0 +1,207 @@
+.contentbox{
+
+    height: 350px;
+    width: 350px;
+    background-color: #b64592;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    margin: 10px;
+ 
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.contentbox2{
+    height: 350px;
+    width: 350px;
+    background-color: #dc7bbd;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    margin: 20px;
+    margin-top: 100px;
+   
+}
+
+
+.skills{
+    width: 90%;
+
+    
+}
+
+.skills li{
+    margin-bottom: -10px;
+    list-style: none;
+   position: relative;
+
+}
+
+.skills h4{
+    margin-right: 300px;
+}
+
+
+
+.bar{
+    background-color:  #bb2a8d;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #218737b3;
+
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background-color: #2187e7;
+
+}
+.mern{
+    width: 80%;
+    animation: mern 2s;
+}
+
+@keyframes mern{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+
+
+
+}
+
+
+
+.redux{
+    width: 80%;
+    animation: redux 2s;
+}
+
+@keyframes redux{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+
+
+
+}
+
+
+
+
+.javascript{
+    width: 90%;
+    animation: javascript 2s;
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+
+
+
+}
+
+
+
+.marketing{
+    width: 99%;
+    animation: marketing 2s;
+}
+
+@keyframes marketing{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 99%;
+    }
+
+
+
+}
+
+
+
+
+
+
+.html{
+    width: 95%;
+    animation: html 2s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+
+
+
+}
+
+
+
+
+
+
+.react{
+    width: 95%;
+    animation: react 2s;
+}
+
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
