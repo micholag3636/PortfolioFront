@@ -19,6 +19,7 @@ function Aboutbox2() {
 
 
             <li></li><h4>Javascript</h4><span className="bar"><span className="javascript"></span></span>
+            <li></li><h4>Marketing</h4><span className="bar"><span className="marketing"></span></span>
 
         
 
