@@ -1,7 +1,7 @@
 .contentbox{
 
-    height: 400px;
-    width: 400px;
+    height: 45vh;
+    width: 20%;
     background-color: #b64592;
     margin-top: 100px;
     display: flex;
@@ -16,8 +16,8 @@
 }
 
 .contentbox2{
-    height: 400px;
-    width: 400px;
+    height: 45vh;
+    width: 20%;
     background-color: #dc7bbd;
     margin-top: 100px;
     display: flex;
@@ -190,6 +190,36 @@
 
 
 
+@media (max-width: 950px){
+    .contentbox{
+       
+    }
+
+    .contentbox2{
+
+
+    }
+
+
+
+
+}
+
+
+@media (max-width: 30px){
+    .contentbox{
+       
+    }
+
+    .contentbox2{
+
+
+    }
+
+
+
+
+}
 
 
 
@@ -199,6 +229,20 @@
 
 
 
+@media (max-width: 1232px){
+    .contentbox{
+       
+    }
+
+    .contentbox2{
+
+
+    }
+
+
+
+
+}
 
 
 

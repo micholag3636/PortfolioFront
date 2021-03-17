@@ -8,6 +8,23 @@ import WorkIcon from '@material-ui/icons/Work';
 function About() {
     return (
         <div className="boxabout">
+
+
+<div className="box-area">
+        <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+           
+         
+
+
+            </div>
+
+       
             <div >
                 < img className="pimg"src="https://cdn2.f-cdn.com/ppic/167323316/logo/34077223/7vUTh/profile_logo_.JPG"  />
                 <h1 className="about-name">
@@ -26,7 +43,7 @@ function About() {
             <Aboutbox  title={<h2>About Me</h2>}    about={<p>Hi my name is Michael and I am a Full Stack Web Developer / Social Media Marketer from Ireland with over 3 years of experience in marketing and 2 years experience in web development.
 </p>}  icon={ <PersonIcon  className="icon"/> }/>
                 <Aboutbox2/>
-                <Aboutbox  icon={ <WorkIcon  className="icon"/>} title={<h2>What I Do</h2>} about={<p>I have a passion for building responsive, engaging websites and using my marketing knowledge to get that website into the hands of users</p>}/>
+                <Aboutbox  icon={ <WorkIcon  className="icon"/>} title={<h2>What I Do</h2>} about={<p>I have a passion for building responsive, engaging websites and using my marketing knowledge to get that website into the hands of users.</p>}/>
 
 
             </div>
