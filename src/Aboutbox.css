@@ -190,12 +190,17 @@
 
 
 
-@media (max-width: 950px){
+@media (max-width: 1250px){
     .contentbox{
+        width: 400px;
+        height: 400px;
        
     }
 
     .contentbox2{
+        width: 400px;
+        height: 400px;
+       
 
 
     }
@@ -208,10 +213,16 @@
 
 @media (max-width: 30px){
     .contentbox{
+        width: 400px;
+        height: 400px;
+       
        
     }
 
     .contentbox2{
+        width: 400px;
+        height: 400px;
+       
 
 
     }
